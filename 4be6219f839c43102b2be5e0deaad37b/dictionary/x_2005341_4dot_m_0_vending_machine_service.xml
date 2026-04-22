@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="98a729df839c43102b2be5e0deaad34c" label="Vending Machine Service" max_length="40" name="x_2005341_4dot_m_0_vending_machine_service" type="collection">
+        <element label="Service Notes" max_length="40" name="service_notes" type="journal"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Current Owner" mandatory="true" max_length="32" name="current_owner" reference="core_company" type="reference"/>
+        <element choice="1" display="true" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Disabled" sequence="0" value="disabled"/>
+                <element inactive_on_update="false" label="Operational" sequence="1" value="operational"/>
+                <element inactive_on_update="false" label="Refill Requested" sequence="4" value="refill_requested"/>
+                <element inactive_on_update="false" label="Pending Servicing" sequence="2" value="pending_servicing"/>
+                <element inactive_on_update="false" label="In Stock" sequence="5" value="in_stock"/>
+                <element inactive_on_update="false" label="Pending Repairs" sequence="3" value="pending_repairs"/>
+            </choice>
+        </element>
+        <element choice="1" label="Content Type" mandatory="true" max_length="40" name="content_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Snacks" sequence="2" value="snacks"/>
+                <element inactive_on_update="false" label="Combo" sequence="3" value="combo"/>
+                <element inactive_on_update="false" label="Food" sequence="0" value="food"/>
+                <element inactive_on_update="false" label="Drinks" sequence="1" value="drinks"/>
+            </choice>
+        </element>
+        <element label="Last Serviced" max_length="40" name="last_serviced" type="glide_date_time"/>
+        <element label="Date of Installation" max_length="40" name="date_of_installation" type="glide_date"/>
+        <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Service Group" max_length="32" name="service_group" reference="sys_user_group" type="reference"/>
+        <element label="Date of Purchase" max_length="40" name="date_of_purchase" type="glide_date"/>
+        <element choice="1" label="Ownership Type" mandatory="true" max_length="40" name="ownership_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Owned" sequence="0" value="owned"/>
+                <element inactive_on_update="false" label="Leased" sequence="1" value="leased"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="current_owner"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="service_group"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
