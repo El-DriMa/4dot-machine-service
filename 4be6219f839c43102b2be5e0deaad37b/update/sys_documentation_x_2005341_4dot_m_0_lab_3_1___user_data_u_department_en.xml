@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_department" label="Department" language="en" table="x_2005341_4dot_m_0_lab_3_1___user_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_department</element>
+            <help/>
+            <hint/>
+            <label>Department</label>
+            <language>en</language>
+            <name>x_2005341_4dot_m_0_lab_3_1___user_data</name>
+            <plural>Departments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-24 13:47:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Department</sys_name>
+            <sys_package display_value="4Dot Machine Service" source="x_2005341_4dot_m_0">4be6219f839c43102b2be5e0deaad37b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="4Dot Machine Service">4be6219f839c43102b2be5e0deaad37b</sys_scope>
+            <sys_update_name>sys_documentation_x_2005341_4dot_m_0_lab_3_1___user_data_u_department_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-24 13:47:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

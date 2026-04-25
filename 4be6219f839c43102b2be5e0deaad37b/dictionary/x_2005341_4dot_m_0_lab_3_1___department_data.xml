@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c88734c083a4c7102b2be5e0deaad3af" extends="sys_import_set_row" label="Lab 3.1 - Department Data" max_length="40" name="x_2005341_4dot_m_0_lab_3_1___department_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

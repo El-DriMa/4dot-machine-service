@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">1b6be606183232108bb255f46a373a90</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 09:17:31</sys_created_on>
+        <sys_id>b00a337b839c87102b2be5e0deaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="4Dot Machine Service" source="x_2005341_4dot_m_0">4be6219f839c43102b2be5e0deaad37b</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 09:17:31</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
