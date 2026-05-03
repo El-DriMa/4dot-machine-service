@@ -14,6 +14,7 @@
                 <element inactive_on_update="false" label="Pending Repairs" sequence="3" value="pending_repairs"/>
             </choice>
         </element>
+        <element label="Machine (CI)" mandatory="true" max_length="32" name="machine_ci" reference="x_2005341_4dot_m_0_cmdb_ci_vending_machine" type="reference"/>
         <element choice="1" label="Content Type" mandatory="true" max_length="40" name="content_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Snacks" sequence="2" value="snacks"/>
@@ -40,9 +41,12 @@
             <element name="location"/>
         </index>
         <index name="index3">
-            <element name="service_group"/>
+            <element name="machine_ci"/>
         </index>
         <index name="index4">
+            <element name="service_group"/>
+        </index>
+        <index name="index5">
             <element name="sys_class_name"/>
         </index>
     </element>

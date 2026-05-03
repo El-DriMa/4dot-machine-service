@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b013a63e832003102b2be5e0deaad3fe" extends="cmdb_ci_hardware" label="Vending Machine" max_length="40" name="x_2005341_4dot_m_0_cmdb_ci_vending_machine" type="collection">
+        <element attributes="desired_state=u_machine_type_desired" choice="3" default="No Features" label="Machine Type" mandatory="true" max_length="40" name="u_machine_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Combo" value="Combo"/>
+                <element inactive_on_update="false" label="No Features" value="No Features"/>
+                <element inactive_on_update="false" label="Fridge" value="Fridge"/>
+                <element inactive_on_update="false" label="Heater" value="Heater"/>
+            </choice>
+        </element>
+        <element label="Width" mandatory="true" max_length="40" name="u_width" type="integer"/>
+        <element label="Volume" mandatory="true" max_length="40" name="u_volume" type="float"/>
+        <element label="Depth" mandatory="true" max_length="40" name="u_depth" type="integer"/>
+        <element label="Height" mandatory="true" max_length="40" name="u_height" type="integer"/>
+    </element>
+</database>
