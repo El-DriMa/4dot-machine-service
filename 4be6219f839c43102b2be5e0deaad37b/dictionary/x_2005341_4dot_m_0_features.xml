@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e52366f83ac47102b2be5e0deaad360" label="Features" max_length="40" name="x_2005341_4dot_m_0_features" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+    </element>
+</database>
