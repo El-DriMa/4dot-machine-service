@@ -9,6 +9,7 @@
             </choice>
         </element>
         <element label="Width" mandatory="true" max_length="40" name="u_width" type="integer"/>
+        <element label="Test Fiels" max_length="40" name="test_fiels" type="string"/>
         <element label="Volume" mandatory="true" max_length="40" name="u_volume" type="float"/>
         <element label="Depth" mandatory="true" max_length="40" name="u_depth" type="integer"/>
         <element label="Height" mandatory="true" max_length="40" name="u_height" type="integer"/>
